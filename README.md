@@ -167,7 +167,7 @@ If it is successfull you should see a json  payload return that looks like this:
     "UserId": "AISAQ1EUKNDZKSSE5YSDR",
     "Account": "123456789012",
     "Arn": "arn:aws:iam::123456789012:user/iamadmin"
-}``````
+}```
 
 We''ll need to generate AWS CLI credentials from IAM User in order to use the user AWS CLI.
 
