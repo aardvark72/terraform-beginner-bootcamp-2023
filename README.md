@@ -205,8 +205,15 @@ This will run a plan and pass the chageset to be executed by terraform. Apply sh
 
 If we want to automatically approve an apply we can provide the auto approve fla eg. `terraform apply --auto-approve`
 
+#### Terraform Destroy
 
-### Terraform Lock Files
+`terraform destroy`
+This will destroy resources.
+
+You can also use the auto approve flag to skip the approve prompt
+eg. `terraform apply --auto-approve`
+
+#### Terraform Lock Files
 
 `.terraform.lock.hcl` contains the locked versioning for the providers or modules that should be used with this project.
 
@@ -224,6 +231,6 @@ If you lose ths file, you lose knowing the state of your infrastructure.
 
 `.terraform.tfstate.backup` is the previous state file state
 
-### Terraform Directory
+#### Terraform Directory
 
 `.terraform` directory contains binaries of terraform providers.
