@@ -1,16 +1,16 @@
 terraform {
   #backend "remote" {
   #  hostname = "app.terraform.io"
-  #  organization = "ExamPro"
+  #  organization = "jrowan"
 
   #  workspaces {
-  #    name = "terra-house-1"
+  #    name = "terra-house-jr"
   #  }
   #}
   #cloud {
-  #  organization = "ExamPro"
+  #  organization = "jrowan"
   #  workspaces {
-  #    name = "terra-house-1"
+  #    name = "terra-house-jr"
   #  }
   #}
 
