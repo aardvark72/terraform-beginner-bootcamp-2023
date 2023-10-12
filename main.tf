@@ -48,7 +48,7 @@ to a landscape that includes pristine beaches, lush vineyards,
 and lush gardens. 
 DESCRIPTION
   domain_name = module.home_capetown_hosting.domain_name
-  town = "missingo"
+  town = "the-nomad-pad"
   content_version = var.capetown.content_version
 }
 
